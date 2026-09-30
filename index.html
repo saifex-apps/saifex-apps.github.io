@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saifex — Thoughtful apps for everyday life</title>
+
+    <meta
+        name="description"
+        content="Saifex is an independent software studio building focused mobile apps for learning, daily life and useful experiences."
+    >
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#080b12">
+    <link rel="canonical" href="https://saifex.app/">
+
+    <meta property="og:title" content="Saifex">
+    <meta
+        property="og:description"
+        content="Useful apps. Simple experiences. Built with purpose."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saifex.app/">
+    <meta property="og:site_name" content="Saifex">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Saifex",
+        "url": "https://saifex.app/",
+        "email": "contact@saifex.app"
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+
+<header class="site-header">
+    <div class="container header-inner">
+
+        <a href="index.html" class="brand" aria-label="Saifex home">
+            <div class="brand-logo">
+                S
+            </div>
+
+            <span>Saifex</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+            <a href="#apps">Apps</a>
+            <a href="#about">About</a>
+            <a href="support.html">Support</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+
+        <div class="header-actions">
+
+            <button
+                id="themeToggle"
+                class="icon-button"
+                type="button"
+                aria-label="Switch to light theme"
+                aria-pressed="false"
+            >
+                <span id="themeIcon">☀</span>
+            </button>
+
+            <button
+                id="menuButton"
+                class="menu-button"
+                type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="mobileMenu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </div>
+
+    <nav id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+    </nav>
+</header>
+
+
+<main id="main-content">
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    Independent app studio
+                </div>
+
+                <h1>
+                    Apps that make
+                    <span class="gradient-text">
+                        everyday life easier.
+                    </span>
+                </h1>
+
+                <p class="hero-description">
+                    Saifex creates useful, simple and thoughtfully designed
+                    applications for everyday life.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#apps" class="button button-primary">
+                        Explore apps
+                        <span>→</span>
+                    </a>
+
+                    <a href="support.html" class="button button-secondary">
+                        Get support
+                    </a>
+
+                </div>
+
+                <div class="platform-row">
+
+                    <div class="platform-pill">
+                        <span class="platform-icon">●</span>
+                        Android
+                    </div>
+
+                    <div class="platform-pill">
+                        <span class="platform-icon apple">●</span>
+                        Mobile
+                    </div>
+
+                    <div class="platform-pill">
+                        <span class="platform-icon">●</span>
+                        Flutter
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="phone phone-back">
+
+                    <div class="phone-screen">
+
+                        <div class="mini-status">
+                            09:41
+                        </div>
+
+                        <div class="mini-app-icon vaktija-icon">
+                            ☾
+                        </div>
+
+                        <h3>Vaktija Slovenija</h3>
+
+                        <p>
+                            Prayer times for Slovenia
+                        </p>
+
+                        <div class="mini-widget">
+
+                            <span>Next prayer</span>
+
+                            <strong>18:42</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="phone phone-front">
+
+                    <div class="phone-screen">
+
+                        <div class="mini-status">
+                            09:41
+                        </div>
+
+                        <div class="mini-app-icon slovene-icon">
+                            SLO
+                        </div>
+
+                        <h3>
+                            Učimo se slovenščino
+                        </h3>
+
+                        <p>
+                            Learn Slovenian step by step
+                        </p>
+
+                        <div class="lesson-progress">
+
+                            <div class="lesson-title">
+                                Daily lesson
+                            </div>
+
+                            <div class="progress-track">
+
+                                <div class="progress-fill"></div>
+
+                            </div>
+
+                            <small>
+                                72% completed
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- APPS -->
+
+    <section id="apps" class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    Our apps
+                </span>
+
+                <h2>
+                    Built to be useful.
+                </h2>
+
+                <p>
+                    Simple products designed around real everyday needs.
+                </p>
+
+            </div>
+
+
+            <div class="apps-grid">
+
+                <!-- VAKTIJA -->
+
+                <article class="app-card featured-card">
+
+                    <div class="app-card-top">
+
+                        <div class="app-icon app-icon-vaktija">
+                            ☾
+                        </div>
+
+                        <div class="app-status available">
+                            Available
+                        </div>
+
+                    </div>
+
+                    <div class="app-card-content">
+
+                        <span class="app-category">
+                            Lifestyle
+                        </span>
+
+                        <h3>
+                            Vaktija Slovenija
+                        </h3>
+
+                        <p>
+                            Prayer times for cities across Slovenia,
+                            Islamic content and useful everyday features
+                            in one clean application.
+                        </p>
+
+                        <div class="app-features">
+
+                            <span>Prayer times</span>
+                            <span>Slovenia</span>
+                            <span>Notifications</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="store-buttons">
+
+                        <!--
+                        Zamijeni # sa pravim Google Play URL-om.
+                        -->
+
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.saidf.vaktijaslovenija"
+                            class="store-button"
+                            aria-label="Vaktija Slovenija on Google Play"
+                            rel="noopener"
+                        >
+                            <div class="store-logo play-logo">
+                                ▶
+                            </div>
+
+                            <div>
+                                <small>
+                                    GET IT ON
+                                </small>
+
+                                <strong>
+                                    Google Play
+                                </strong>
+                            </div>
+
+                        </a>
+
+                        <div class="store-button disabled">
+
+                            <div class="store-logo">
+                                
+                            </div>
+
+                            <div>
+
+                                <small>
+                                    COMING SOON ON
+                                </small>
+
+                                <strong>
+                                    App Store
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <a
+                        href="privacy.html#vaktija"
+                        class="app-policy-link"
+                    >
+                        Privacy Policy →
+                    </a>
+
+                </article>
+
+
+                <!-- UCIMO -->
+
+                <article class="app-card">
+
+                    <div class="app-card-top">
+
+                        <div class="app-icon app-icon-slovene">
+                            SLO
+                        </div>
+
+                        <div class="app-status available">
+                            Available
+                        </div>
+
+                    </div>
+
+                    <div class="app-card-content">
+
+                        <span class="app-category">
+                            Education
+                        </span>
+
+                        <h3>
+                            Učimo se slovenščino
+                        </h3>
+
+                        <p>
+                            A simple way to learn Slovenian through
+                            structured lessons, vocabulary and exercises
+                            for everyday communication.
+                        </p>
+
+                        <div class="app-features">
+
+                            <span>A1–B1</span>
+                            <span>Vocabulary</span>
+                            <span>Exercises</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="store-buttons">
+
+                        <div class="store-button disabled" aria-label="Učimo se slovenščino Google Play listing coming soon">
+
+                            <div class="store-logo play-logo">
+                                ▶
+                            </div>
+
+                            <div>
+
+                                <small>
+                                    GET IT ON
+                                </small>
+
+                                <strong>
+                                    Google Play
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                        <div class="store-button disabled">
+
+                            <div class="store-logo">
+                                
+                            </div>
+
+                            <div>
+
+                                <small>
+                                    COMING SOON ON
+                                </small>
+
+                                <strong>
+                                    App Store
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <a
+                        href="privacy.html#ucimo"
+                        class="app-policy-link"
+                    >
+                        Privacy Policy →
+                    </a>
+
+                </article>
+
+
+                <!-- MODELIO -->
+
+                <article class="app-card">
+
+                    <div class="app-card-top">
+
+                        <div class="app-icon app-icon-modelio">
+                            M
+                        </div>
+
+                        <div class="app-status development">
+                            In development
+                        </div>
+
+                    </div>
+
+                    <div class="app-card-content">
+
+                        <span class="app-category">
+                            Marketplace
+                        </span>
+
+                        <h3>
+                            Modelio
+                        </h3>
+
+                        <p>
+                            A marketplace connecting students,
+                            professionals and models for hair,
+                            beauty and makeup services.
+                        </p>
+
+                        <div class="app-features">
+
+                            <span>Marketplace</span>
+                            <span>Chat</span>
+                            <span>Reviews</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="coming-soon-box">
+                        Coming soon
+                    </div>
+
+                    <a
+                        href="privacy.html#modelio"
+                        class="app-policy-link"
+                    >
+                        Privacy Policy →
+                    </a>
+
+                </article>
+
+
+                <!-- FACTORY BOSS -->
+
+                <article class="app-card">
+
+                    <div class="app-card-top">
+
+                        <div class="app-icon app-icon-factory">
+                            ⚙
+                        </div>
+
+                        <div class="app-status development">
+                            In development
+                        </div>
+
+                    </div>
+
+                    <div class="app-card-content">
+
+                        <span class="app-category">
+                            Game
+                        </span>
+
+                        <h3>
+                            Factory Boss
+                        </h3>
+
+                        <p>
+                            Build, automate and expand your own factory
+                            while managing production, machines and growth.
+                        </p>
+
+                        <div class="app-features">
+
+                            <span>Simulation</span>
+                            <span>Management</span>
+                            <span>Strategy</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="coming-soon-box">
+                        Coming soon
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section about-section">
+
+        <div class="container about-grid">
+
+            <div>
+
+                <span class="section-label">
+                    About Saifex
+                </span>
+
+                <h2>
+                    Small studio.
+                    <br>
+                    Big ideas.
+                </h2>
+
+            </div>
+
+            <div class="about-copy">
+
+                <p>
+                    Saifex is an independent software brand focused on
+                    building practical and accessible digital products.
+                </p>
+
+                <p>
+                    Our goal is simple: identify real problems and create
+                    apps that solve them without unnecessary complexity.
+                </p>
+
+                <div class="about-values">
+
+                    <div class="value">
+
+                        <strong>01</strong>
+
+                        <span>
+                            Useful first
+                        </span>
+
+                    </div>
+
+                    <div class="value">
+
+                        <strong>02</strong>
+
+                        <span>
+                            Simple design
+                        </span>
+
+                    </div>
+
+                    <div class="value">
+
+                        <strong>03</strong>
+
+                        <span>
+                            Continuous improvement
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SUPPORT CTA -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="support-cta">
+
+                <div>
+
+                    <span class="section-label">
+                        Need help?
+                    </span>
+
+                    <h2>
+                        We're here to help.
+                    </h2>
+
+                    <p>
+                        Questions, feedback or problems with one of our apps?
+                        Contact Saifex support.
+                    </p>
+
+                </div>
+
+                <a
+                    href="support.html"
+                    class="button button-light"
+                >
+                    Contact support
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <a href="index.html" class="brand footer-brand">
+
+                <div class="brand-logo">
+                    S
+                </div>
+
+                <span>
+                    Saifex
+                </span>
+
+            </a>
+
+            <p>
+                Useful apps.
+                <br>
+                Built with purpose.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+
+                <strong>
+                    Products
+                </strong>
+
+                <a href="#apps">
+                    Apps
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    Legal
+                </strong>
+
+                <a href="privacy.html">
+                    Privacy Policy
+                </a>
+
+                <a href="terms.html">
+                    Terms
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    Support
+                </strong>
+
+                <a href="support.html">
+                    Help
+                </a>
+
+                <a href="mailto:contact@saifex.app">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <span>
+            © <span id="year"></span> Saifex.
+            All rights reserved.
+        </span>
+
+        <span>
+            Slovenia
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
