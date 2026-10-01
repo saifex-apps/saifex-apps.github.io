@@ -1,0 +1,16 @@
+# Local development and QA only; the site has no build dependencies.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+qa-output/
+*.log
+.env*
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*.jks
+*.keystore
